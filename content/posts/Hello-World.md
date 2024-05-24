@@ -1,5 +1,5 @@
 ---
-title: "🥇 First post"
+title: "🥇 Hello World"
 date: 2023-11-01
 # weight: 1
 # aliases: ["/first"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "General purpose of this blog."
+description: "Introducing my blog."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -38,9 +38,7 @@ editPost:
 
 Hi 👋. 
 
-The purpose of this post is to introduce this blog to the world.
-
-Its primary objective is to shed light on subjects around IT and cybersecurity that I think are either under-addressed or not addressed in the right way.
+The primary objective of this blog is to shed light on subjects around programming/scripting, sysadmin stuff and cybersecurity that I think are either under-addressed or not addressed in the right way.
 
 You can find all necessary information about me in the home page.
 
