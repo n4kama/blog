@@ -3,7 +3,7 @@ title: "☠️ Quit using Microsoft Deployment Toolkit (MDT)"
 date: 2024-04-22
 # weight: 1
 # aliases: ["/first"]
-tags: ["powershell", "microsoft", "authentication", "scripting"]
+tags: ["powershell", "microsoft", "authentication", "scripting","intune", "autopilot", "windows", "osdcloud", "infrastructure", "winpe", "hardware hash", "automation", "git", "mdt", "sysadmin"]
 author: "Nakama"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -31,7 +31,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/n4kama/blog//blob/main/content"
+    URL: "https://github.com/n4kama/blog/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
@@ -68,7 +68,7 @@ A great starting point in my opinion would be (on top of the OSDCloud [documenta
 Once again, read docs and articles for more details but my workflows goes like this:
 1. Create OSDCloud Template with `New-OSDCloudTemplate`
 2. Create OSDCloud Workspace with `New-OSDCloudWorkspace`
-3. Build the WinPE ISO with `Edit-OSDCloudWinPE`
+3. Build the WinPE ISO with `Edit-OSDCloudWinPE` (See my [git repository](https://git.baguet.org/nakama/yggdrasil/) for for details)
 
 ### OSDCloud x Git
 ---
