@@ -91,7 +91,7 @@ Nowadays, uploading a device's hardware hash to Autopilot is easy. The simplest 
 
 However, it is not possible to obtain the hardware hash because the official Microsoft script uses a WMI Class (MDM_DevDetail_Ext01) which is not present in WinPE.
 
-The solution, found by MICHAEL NIEHAUS in his blog post, is to use the OA3 Tool (oa3tool.exe is provided by the ADK which is normally already installed if you have installed OSDCloud).
+The solution, found by Michael Niehaus in his [blog post](https://oofhours.com/2022/08/02/connecting-the-dots-reverse-engineering-an-autopilot-hash/), is to use the OA3 Tool (oa3tool.exe is provided by the ADK which is normally already installed if you have installed OSDCloud).
 OA3 Tool enables the creation of audit reports on the computer's hardware, and can therefore be used to retrieve the hardware hash.
 
 ---
