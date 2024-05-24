@@ -56,24 +56,24 @@ Thus began my epic.
 > 1. [Using OSDCloud to automate the entire process of deploying a Windows workstation and registering it on Autopilot. (This article)](https://blog.baguet.org/posts/quit-using-microsoft-deployment-toolkit)
 > 2. Setting up a PXE infrastructure to deploy Windows workstations with OSDCloud. (Coming soon)
 
-## 🙌 OSDCloud, the sinews of war
+## 🙌 OSDCloud
 
 There are many ways to use the OSDCloud Powershell module and I won't cover them all here. Nor am I going to explain all the details of the module, as there are plenty of articles on the Internet doing that perfectly.
 
 A great starting point in my opinion would be (on top of the OSDCloud [documentation](https://www.osdcloud.com/)) Ákos Bakos' [series of articles](https://akosbakos.ch/tag/osdcloud/).
 
-### OSDCloud main logic (Speedrun any% 🦔 (It's Sonic))
+### Basic Workflow (Speedrun any% 🦔 (It's Sonic))
 ---
 
 Once again, read docs and articles for more details but my workflows goes like this:
 1. Create OSDCloud Template with `New-OSDCloudTemplate`
 2. Create OSDCloud Workspace with `New-OSDCloudWorkspace`
-3. Build the WinPE ISO with `Edit-OSDCloudWinPE` (See my [git repository](https://git.baguet.org/nakama/yggdrasil/) for for details)
+3. Build the WinPE ISO with `Edit-OSDCloudWinPE` and your prefered parameters (See my [git repository](https://git.baguet.org/nakama/yggdrasil/) for for details)
 
 ### OSDCloud x Git
 ---
 
-When WinPE starts up, OSDCloud lets you run a script from any URL  provided you use `-StartURL` parameter.
+When WinPE starts up, OSDCloud lets you run a script from any URL provided you use `-StartURL` parameter.
 
 By combining this feature with a Git repository, you only need to build the OSDCloud ISO once, as the script will be loaded at each startup.
 
