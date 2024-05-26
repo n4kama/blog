@@ -129,3 +129,7 @@ sequenceDiagram
   OSDCloud Workspace-)User: 
   Note over User: OSDCloud ISO ready for deployment
 ```
+
+And here's a demonstration video:
+
+<script src="https://asciinema.org/a/186686.js" id="asciicast-FzjrzwKtl4G1oKljWuF6XXAVB" async></script>
