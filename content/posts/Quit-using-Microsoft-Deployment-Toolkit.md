@@ -54,7 +54,7 @@ Thus began my epic.
 
 > While writing this article, I realized it was more convenient to divide it into two separate articles: 
 > 1. [Using OSDCloud to automate the entire process of deploying a Windows workstation and registering it on Autopilot. (This article)](https://blog.baguet.org/posts/quit-using-microsoft-deployment-toolkit)
-> 2. Setting up a PXE infrastructure to deploy Windows workstations with OSDCloud. (Coming soon)
+> 2. [Setting up a PXE infrastructure to deploy Windows workstations with OSDCloud.](https://blog.baguet.org/posts/quickest-and-smallest-pxe-server-for-deploying-windows)
 
 ## 🙌 OSDCloud
 
